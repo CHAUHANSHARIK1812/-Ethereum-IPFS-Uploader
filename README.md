@@ -51,23 +51,17 @@ IPFS and blockchain are a perfect combination for decentralized and immutable st
    ```sh
    ganache-cli -b 3
    ```
-2. **Clone the repository & install dependencies:**
-   ```sh
-   git clone https://github.com/iwaldman/ipfs-image-dapp.git
-   cd ipfs-image-dapp
-   npm install
-   ```
-3. **Compile and deploy smart contracts:**
+2. **Compile and deploy smart contracts:**
    ```sh
    truffle compile
    truffle migrate --reset --compile-all
    ```
-4. **Start the application:**
+3. **Start the application:**
    ```sh
    npm run start
    ```
-5. **Open the app** in a browser: [http://localhost:3000](http://localhost:3000)
-6. **Connect MetaMask** to your local Ganache Ethereum account:
+4. **Open the app** in a browser: [http://localhost:3000](http://localhost:3000)
+5. **Connect MetaMask** to your local Ganache Ethereum account:
    - Connect to `http://127.0.0.1:8545`
    - Import an account using the Ganache seed phrase
 
@@ -112,9 +106,6 @@ npm run coverage:solidity
     ✓ should store images for multiple owners
   17 passing (2s)
 ```
-
----
-
 ## Deployment to Rinkeby TestNet
 
 ### Steps to Deploy
@@ -157,11 +148,3 @@ npm run coverage:solidity
 - [IPFS](https://ipfs.io/)
 
 ---
-
-## Contributors
-- **[Your Name]** - [GitHub Profile](https://github.com/yourgithub)
-
----
-
-## License
-This project is licensed under the **MIT License**.
